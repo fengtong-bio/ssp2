@@ -50,15 +50,15 @@ Usage
 Step0.pl is recommended to get all command lines directly. Ssp2 needs to write the configuration file which named ctg.list, The details are as follows:<br>
 ```Bash
 WORK_NAME=TEST	#Any name of the workflow
-INSTALL_PATH=/public/agis/ruanjue_group/fengtong/ssx/art_use/new_pip/test/bin	#The installation path for ssp2
-WORK_PATH=/public/agis/ruanjue_group/fengtong/ssx/art_use/new_pip/test/work	#The work path for ssp2
-CFG_PATH=/public/agis/ruanjue_group/fengtong/ssx/art_use/new_pip/test/bin/cfg.list	#The path for file cfg.list
+INSTALL_PATH=path_to/bin	#The installation path for ssp2
+WORK_PATH=path_to/work	#The work path for ssp2
+CFG_PATH=path_to/cfg.list	#The path for file cfg.list
 
-KMER_COUNT_PATH=/public/agis/ruanjue_group/fengtong/software/AAF/phylokmer/kmer_count	#The path for kmer_count
-FILTERX_PATH=/public/home/lialun/bin/filterx	#The path for filterx
-SOAPDENOVO_PATH=/public/software/bin/SOAPdenovo127mer	#The path for SOAPdenovo127mer
-BWA_PATH=/public/software/bin/bwa	#The path for bwa
-SAMTOOLS_PATH=/public/agis/ruanjue_group/fengtong/software/conda/bin/samtools	#The path for samtools
+KMER_COUNT_PATH=path_to/kmer_count	#The path for kmer_count
+FILTERX_PATH=path_to/filterx	#The path for filterx
+SOAPDENOVO_PATH=path_to/SOAPdenovo127mer	#The path for SOAPdenovo127mer
+BWA_PATH=path_to/bwa	#The path for bwa
+SAMTOOLS_PATH=path_to/samtools	#The path for samtools
 THREAD=6	#Maximum number of threads used
 
 G1_SAMPLE_NUMBER=3	#Number of samples in the first group/FEMALE
