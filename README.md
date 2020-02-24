@@ -43,13 +43,7 @@ Ssp2(Sex-specific-Perl-2.0) is the new version of `Sex-specific-Perl` which is a
 Installation
 ==========
 Ssp2 is a program based on `Perl`, at the same time, it needs the support of several kinds of software.<br>
-These are the software that needs to be used:
-	Perl
-	kmer_count
-	filterx
-	SOAPdenovo
-	BWA
-	SamTools
+These are the software that needs to be used:`Perl` `kmer_count` `filterx` `SOAPdenovo` `BWA` `SamTools`.
 
 Usage
 ==========
